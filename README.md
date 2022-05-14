@@ -29,3 +29,19 @@
 12. finally Laravel Mix is compliled Successfully with `1 warning in child compilations (Use 'stats.children: true' resp. '--stats-children' for more details) webpack compiled with 1 warning`
 
 13. you can keep going or try to fix this warning  by adding this to webpack.mix.js: `mix.webpackConfig({ stats: { children: true }});`
+
+14. Run migrations `php artisan migrate`
+
+15. register with any data :) . thats work 
+
+16. rename welcome blade to product blade & in web.php change view welcome to view product 
+
+17. write our product blade as we want :) as our assets in public folder :)
+
+18. Now , we should create Product Model `php artisan make:model Product -mfs` m for migration ,f for factory, s for seeder :) 
+
+19. Now, we need to create model for Cart `php artisan make:model Cart -m` 
+
+20. create the field of Product Table and Cart Table
+
+21. Now, We can run Migration :) `php artisan migrate`
